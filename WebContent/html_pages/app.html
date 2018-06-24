@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/footerCss.css">
+<link rel="stylesheet" href="css/navigationCss.css">
+<link rel="stylesheet" href="css/app.css">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/appController.js"></script>
+<script src="config/config.js"></script>
+
+
+<style>
+body {
+    background: url(images/12621-NOE29X.jpg);
+     background-size:100%;
+     background-position:top;
+    background-repeat: no-repeat;
+    max-height:100%;
+    max-width:100%;
+    
+}
+</style>
+</head>
+<body ng-app="app">
+<div ng-controller="appController">
+<div ng-include="'html_templates/navigation.html'"></div>
+<div class="appDiv">
+
+<form id="upload_form" enctype="multipart/form-data">
+<input style="margin-top:200px;" id="upload_form"  type="file" name="file" enctype="multipart/form-data" />
+<input type="button" ng-click="upload()" />button {{1+2}}
+</div>
+
+
+
+
+<div ng-include="'html_templates/footer.html'"></div>
+</div>
+
+
+
+
+<a href="http://www.freepik.com/free-photos-vectors/business">Business vector created by Freepik</a>
+</body>
+<script>
+
+
+
+
+</script>
+</html>

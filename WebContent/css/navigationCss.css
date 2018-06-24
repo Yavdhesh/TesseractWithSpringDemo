@@ -1,0 +1,27 @@
+.bfeWebsiteViewGeneratedSite .hero--full-bleed .navbar, .bfeWebsiteViewGeneratedSite .hero--full-bleed .brand .textLogo {
+    background: transparent;
+    color: #fff;
+}
+
+.bfeWebsiteView-theme-plum-harvest .brand .textLogo {
+    font-family: 'Lora',serif;
+}
+
+.bfeWebsiteViewGeneratedSite .brand .textLogo {
+    line-height: 1.0;
+}
+
+.bfeWebsiteViewGeneratedSite .brand .textLogo {
+    color: #6c6c6c;
+    font-size: 22px;
+    margin: 20px 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+p.textLogo {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
